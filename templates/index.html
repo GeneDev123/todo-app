@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Todo App</title>
+  <meta name="description" content="This is a demonstration of applying Vue3 Js in a To-do Application">
+  <meta name="author" content="Eugene M. Reyes">
+  <meta name="keywords" content="web, page, HTML, CSS, JavaScript, Vue3">
+
+  <script type="module" src="../scripts/js/imports.js"></script>
+  <script type="module" src="../scripts/js/main.js"></script>
+
+  
+</head>
+
+<body>
+
+  <div id="main-container">
+    <div class="table-container">
+      
+      <table>
+        <thead class="table-head">
+          <tr>
+            <th>No.</th>
+            <th>Item</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody class="table-body">
+          <tr>
+            <!-- Currently blank -->
+          </tr>
+        </tbody>
+      </table>
+      
+      
+      <div id="app">
+        <button @click="count++">
+          message: {{ message }}
+        </button>
+      </div>
+    </div>
+    
+    <div class="menu-container">
+
+    </div>
+
+  </div>
+  
+</body>
+
+</html>

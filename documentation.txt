@@ -1,0 +1,13 @@
+Project: To Do List Application
+
+- Login/ Sign up 
+- Database
+- Backend and Frontend (UI)
+- CRUD
+- REST API
+
+Tools
+- JS
+- Vue JS
+- SASS
+- npm
